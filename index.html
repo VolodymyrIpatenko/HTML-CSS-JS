@@ -10,13 +10,24 @@
   <body>
     <header class="header">
       <h1 class="main-title">JS Documentation</h1>
+
       <nav>
         <ul class="header-nav">
           <li class="header-item">
-            <a href="" class="header-link">JavaScript and Java</a>
+            <a href="#Introduction" class="header-link">Introduction</a>
           </li>
           <li class="header-item">
-            <a href="" class="header-link">Hello World</a>
+            <a href="#What_you_should_already_know" class="header-link"
+              >What you should already know</a
+            >
+          </li>
+          <li class="header-item">
+            <a href="#JavaScript_and_Java" class="header-link"
+              >JavaScript and Java</a
+            >
+          </li>
+          <li class="header-item">
+            <a href="#Hello_world" class="header-link">Hello World</a>
           </li>
           <li class="header-item">
             <a href="" class="header-link">Variables</a>
@@ -46,13 +57,13 @@
             <a href="" class="header-link">Function declaration</a>
           </li>
           <li class="header-item">
-            <a href="" class="header-link">Reference</a>
+            <a href="#Reference" class="header-link">Reference</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-doc">
-      <section>
+      <section id="Introduction">
         <article>
           <h2>Introduction</h2>
           <p>
@@ -88,7 +99,7 @@
           </ul>
         </article>
       </section>
-      <section>
+      <section id="What_you_should_already_know">
         <article>
           <h2>What you should already know</h2>
           <p>This guide assumes you have the following basic background:</p>
@@ -105,7 +116,7 @@
           </ul>
         </article>
       </section>
-      <section>
+      <section id="JavaScript_and_Java">
         <article>
           <h2>JavaScript and Java</h2>
           <p>
@@ -136,7 +147,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Hello_world">
         <article>
           <h2>Hello World</h2>
           <p>
@@ -153,7 +164,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Variables">
         <article>
           <h2>Variables</h2>
           <p>
@@ -170,7 +181,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Declaring_variables">
         <article>
           <h2>Declaring variables</h2>
           <p>
@@ -195,7 +206,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Variable_scope">
         <article>
           <h2>Variable scope</h2>
           <p>
@@ -221,7 +232,7 @@
           >
         </article>
       </section>
-      <section>
+      <section id="Global_variables">
         <article>
           <h2>Global variables</h2>
           <p>
@@ -238,7 +249,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Constants">
         <article>
           <h2>Constants</h2>
           <p>
@@ -276,31 +287,28 @@
           >
         </article>
       </section>
-      <section>
+      <section id="Data_types">
         <article>
           <h2>Data types</h2>
           <p>The latest ECMAScript standard defines seven data types:</p>
           <ul>
-            <li>
-              <p>Six data types that are primitives:</p>
-              <ul>
-                <li>Boolean.true and false</li>
-                <li>
-                  null. A special keyword denoting a null value. Because
-                  JavaScript is case-sensitive, null is not the same as Null,
-                  NULL, or any other variant.
-                </li>
-                <li>
-                  undefined. A top-level property whose value is undefined.
-                </li>
-                <li>Number. 42 or 3.14159.</li>
-                <li>String. "Howdy"</li>
-                <li>
-                  Symbol (new in ECMAScript 2015). A data type whose instances
-                  are unique and immutable.
-                </li>
-              </ul>
-            </li>
+            <li>Six data types that are primitives:</li>
+            <ul>
+              <li>Boolean.true and false</li>
+              <li>
+                null. A special keyword denoting a null value. Because
+                JavaScript is case-sensitive, null is not the same as Null,
+                NULL, or any other variant.
+              </li>
+              <li>undefined. A top-level property whose value is undefined.</li>
+              <li>Number. 42 or 3.14159.</li>
+              <li>String. "Howdy"</li>
+              <li>
+                Symbol (new in ECMAScript 2015). A data type whose instances are
+                unique and immutable.
+              </li>
+            </ul>
+
             <li>and Object</li>
           </ul>
           <p>
@@ -312,7 +320,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="if...else_statement">
         <article>
           <h2>if...else statement</h2>
           <p>
@@ -365,7 +373,7 @@
           <code>if ((x = y)) { /* statements here */ }</code>
         </article>
       </section>
-      <section>
+      <section id="while_statement">
         <article>
           <h2>while statement</h2>
           <p>
@@ -407,7 +415,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Function_declaration">
         <article>
           <h2>Function declaration</h2>
           <p>
@@ -445,7 +453,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="Reference">
         <article>
           <h2>Reference</h2>
           <ul>
